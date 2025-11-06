@@ -1,0 +1,16 @@
+El proyecto trata en utilizar los pincipios de funcionamiento del sitio Aula UTC, con el diseño de interfaz del classroom.
+Con base en lo anterior descrito. vamos a implementar un apartado de calificaciones que se podrá visualizar después de pasar un test (realizar las encuestas previamente)
+Le daremos un toca eficiente muy parecido al rendimiento que usa Google con Classroom. 
+*Cada vez que un Docente suba una actividad, te va a llegar una notificación a tu dispositivo (PC/Lpatop/Celular)
+*Cuando esté a punto de vencer la actividad, un día antes te va a notificar nuevamente la aplicación
+*También te va a notificar cuando la califique el/la Docente. cada calificación que se registre se va a mandar a la tabla de calificaciones Y ahí se podrá er en tiemporeal si el Alumnado se fué a primeras/segundas o actividad extraordinaria.
+
+
+Sistem control: tiene en mente la creación de un SITIO WEB con la finalidad de contar con un Sistema de control centralizado para estudiantes de la UTC más intuitivo y satisfactorio con el usuario, esto se consigue de la siguiente forma, tomando de base el aula, le implementaremos los apartados de encuestas y calificaciones del portal, (para tener todas las materias, actividades y calificaciones en un solo lugar)(dejando el portal únicamente para pagos)
+Una ves teniendo lo anterior agregaremos lo más importante, mejorar la experiencia del usuario agregando notificaciones cada que un maestro suba una tarea 
+Cuando quede menos de un día para expirar la tarea el Sistema te avisara con notificaciones demas de poder agregar comentarios tál como classroom cuando ya te calificaron 
+ 
+Ya calificada la actividad se reflejar en el módulo de calificaciones que podrás ver si ya contestaste las encuestas, sabiendo si el alumno/a está en primeras/segundas o actividad extraordinaria.
+Así tendremos todo lo importante referente al alumno, sus actividades  realizer y evaluaciones en un solo lugar centralizado.
+
+SCC
