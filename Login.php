@@ -1,4 +1,3 @@
-/* Primer Commitswl login */
 
 <?php include("conexion.php"); ?>
 <!DOCTYPE html>
