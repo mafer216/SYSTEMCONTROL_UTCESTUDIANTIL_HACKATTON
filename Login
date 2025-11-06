@@ -1,0 +1,39 @@
+/* Primer Commitswl login */
+
+<?php include("conexion.php"); ?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portal Estudiantil UTC</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<div class="login-box">
+<h2>Iniciar Sesión</h2>
+<form action="" method="POST">
+<input type="text" name="correo" placeholder="Correo" required>
+<input type="password" name="password" placeholder="Contraseña" required>
+<input type="submit" name="login" value="Ingresar">
+</form>
+</div>
+
+<?php
+if(isset($_POST['login'])){
+    $correo = $_POST['correo'];
+    $password = $_POST['password'];
+
+    $consulta = mysqli_query($conexion,"SELECT * FROM usuarios WHERE correo='$correo' AND password='$password'");
+
+    if(mysqli_num_rows($consulta) > 0){
+        session_start();
+        $_SESSION['usuario']=$correo;
+        header("location: dashboard.php");
+    } else {
+        echo "<script>alert('Credenciales incorrectas');</script>";
+    }
+}
+?>
+
+</body>
+</html>
